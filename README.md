@@ -36,7 +36,9 @@ sudo npm install react-ace
 
 webpack-dev-server --host 0.0.0.0 --port 8090
 
-(2) Check the following lines in home.jsp to understand how js file is imported.
+(2)
+Before you start, try to have a basic idea of React and Webpack. When you develop locally, you can edit the react project directly. The webpack host the react project and will automatically generate a bundle js file on the path /assets/bundle.js in the react project. When you want to deploy the project, just copy the compressed js into the resources/js/bundle.min.js in the Eclipse project.
+Check the following lines in home.jsp to understand how js file is imported.
 
 <c:choose>
 
@@ -60,6 +62,4 @@ webpack-dev-server --host 0.0.0.0 --port 8090
 
 
 
-	Before you start, try to have a basic idea of React and Webpack. 
 	
-	When you develop locally, you can edit the react project directly. The webpack host the react project and will automatically generate a bundle js file on the path /assets/bundle.js in the react project. When you want to deploy the project, just copy the compressed js into the resources/js/bundle.min.js in the Eclipse project. 
