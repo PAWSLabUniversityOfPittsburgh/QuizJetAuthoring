@@ -13,3 +13,25 @@ How to run it?
 (5)Save all the configuration. Run it locally in eclipse to test the project.
 
 (6)Export it as an War file and deploy it on tomcat.
+
+
+
+
+How to develop the project?
+
+(1) The UI is implemented using React framework.
+The files are in React Component.
+
+Here are some useful commands using React.
+
+sudo npm install webpack-dev-server -g
+
+npm install --save-dev jsx-loader
+
+npm install --save react react-dom
+
+npm install brace
+
+sudo npm install react-ace
+
+webpack-dev-server --host 0.0.0.0 --port 8090
