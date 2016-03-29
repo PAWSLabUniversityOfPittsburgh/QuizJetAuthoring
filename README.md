@@ -56,6 +56,10 @@ webpack-dev-server --host 0.0.0.0 --port 8090
 
 	</c:choose>
 	
+
+
+
+
 	Before you start, try to have a basic idea of React and Webpack. 
 	
 	When you develop locally, you can edit the react project directly. The webpack host the react project and will automatically generate a bundle js file on the path /assets/bundle.js in the react project. When you want to deploy the project, just copy the compressed js into the resources/js/bundle.min.js in the Eclipse project. 
